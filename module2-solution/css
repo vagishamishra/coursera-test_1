@@ -140,7 +140,7 @@ float: left;
   padding: 10px;
   border: 1px solid black;
   position: relative;
-  width: 300px;
+  width: 100%;
   height: 200px;
   margin-top: 50px;
 }
@@ -150,7 +150,7 @@ float: left;
   padding: 10px;
   border: 1px solid black;
   position: relative;
-  width: 300px;
+  width: 100%;
   height: 200px;
   margin-top: 50px;
 }
@@ -160,7 +160,7 @@ float: left;
   padding:10px;
   border: 1px solid black;
   position: relative;
-  width: 300px;
+  width: 100%;
   height: 200px;
   margin-top: 50px;
 }
@@ -173,16 +173,18 @@ float: left;
   width:100px;
   height:25px;
   position: absolute;
+  margin: -1px;
   top: 0;
   right: 0;
 }
 
 #s2 {
   background-color: #FF3342;
-  border: 1px solid black;
+  border:1px solid black;
   width:100px;
   height:25px;
   position: absolute;
+  margin: -1px;
   top: 0;
   right: 0;
 }
@@ -193,7 +195,9 @@ float: left;
   width:100px;
   height:25px;
   position: absolute;
+  margin: -1px;
   top: 0;
   right: 0;
 }
+
 
