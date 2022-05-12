@@ -169,7 +169,7 @@ padding: 10px;
 
 
 #s1 {
-  background-color: #FF3380 ;
+  background-color: #f396a5 ;
   border: 1px solid black;
   width:100px;
   height:25px;
@@ -180,7 +180,7 @@ padding: 10px;
 }
 
 #s2 {
-  background-color: #FF3342;
+  background-color: #C62315;
   border:1px solid black;
   width:100px;
   height:25px;
@@ -192,7 +192,7 @@ padding: 10px;
 }
 
 #s3 {
-  background-color: #FFE633;
+  background-color: #F6F691;
   border: 1px solid black;
   width:100px;
   height:25px;
