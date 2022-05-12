@@ -188,6 +188,7 @@ padding: 10px;
   margin: -1px;
   top: 0;
   right: 0;
+  color: white;
 }
 
 #s3 {
