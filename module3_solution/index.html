@@ -4,21 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MOD_3_SOL</title>
+
+    <title>MENU</title>
+
+    <!-- CSS Link -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.woff2" type="text/css">
+
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   </head>
 <body>
+<!-- Header -->
   <header>
     <nav id="header-nav" class="navbar navbar-default">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
-
-          <div class="navbar-brand">
-            <h1>Food, LLC</h1>
-          </div>
-
+          <a href="index.html" class="navbar-brand "><p>Food, LLC</p></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -26,85 +28,57 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-        
-       <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li class="visible-xs active">
-              <hr />
-              <span class="text-center">Chicken</span>
-              <hr />
-            </li>
-            <li role="separator" class="divider"></li>
-            <li class="visible-xs active">
-                <span class="text-center">Beef</span>
-                <hr />
-            </li>
-            <li role="separator" class="divider"></li>
-            <li class="visible-xs active">
-              <span class="text-center">Sushi</span>
-              <hr />
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
+
+        <!-- Navbar -->
+        <div class="collapse navbar-collapse" id="collapsable-nav">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li><a href="#beef">Beef</a></li>
+            <li><a href="#chicken">Chicken</a></li>
+            <li><a href="#sushi">Sushi</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
-  <div id="main-content" class="container">
+<!-- Body Content -->
+  <div class="container" id="main-content">
+    <h1 class="text-center" id="home">Our Menu</h1>
+    <section class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12"  id="chicken">
+        <article>
+            <h3 class="text-center">Chicken</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#home" class="visible-xs visible-sm">Back to top</a></p>
+        </article>
       </div>
-        <h2 class="text-center">Our Menu</h2>
+    
+
+    
+      <div id="beef" class="col-md-4 col-sm-6 col-xs-12">
+        <article>
+            <h3 class="text-center">Beef</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#home" class="visible-xs visible-sm">Back to top</a></p>
+        </article>
       </div>
-      <section id="menus" class="container">
-      <div class="col-xs-12">
-        <h3>Chicken</h3>
-        <p id="main-text">
-          For the culinary use of chickens, see Chicken as food. For other uses, see Chicken (disambiguation) and Chooks (disambiguation).
-"Cockadoodledoo" and "Cocka-doodle-doo" redirect here. For the nursery rhyme, see Cock a doodle doo.
-Chicken
-Male and female chicken sitting together.jpg
-A rooster (left) and hen (right) perching on a roost
-Conservation status
-Domesticated
-Scientific classificationedit
-Kingdom:	Animalia
-Phylum:	Chordata
-Class:	Aves
-Order:	Galliformes
-Family:	Phasianidae
-Genus:	Gallus
-Species:	G. domesticus
-Binomial name
-Gallus domesticus
-(Linnaeus, 1758)
-GLW 2 global distributions of c) chickens.tif
-Chicken distribution
-The chicken (Gallus domesticus) is a domesticated subspecies of the red junglefowl, with attributes of wild species such as grey and ceylon junglefowl[1] that are originally from Southeastern Asia. Rooster or cock is a term for an adult male bird, and a younger male may be called a cockerel. A male that has been castrated is a capon. An adult female bird is called a hen and a sexually immature female is called a pullet.
+    
 
-Originally raised for cockfighting or for special ceremonies, chickens were not kept for food until the Hellenistic period (4th–2nd centuries BC).[2][3] Humans now keep chickens primarily as a source of food (consuming both their meat and eggs) and as pets.
-
-Chickens are one of the most common and widespread domestic animals, with a total population of 23.7 billion as of 2018,[4] up from more than 19 billion in 2011.[5] There are more chickens in the world than any other bird.[5] There are numerous cultural references to chickens – in myth, folklore and religion, and in language and literature.
-
-Genetic studies have pointed to multiple maternal origins in South Asia, Southeast Asia, and East Asia,[6] but the clade found in the Americas, Europe, the Middle East and Africa originated from the Indian subcontinent. From ancient India, the chicken spread to Lydia in western Asia Minor, and to Greece by the 5th century BC.[7] Fowl have been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III.
-          Behavior
-Social behaviour
-See also: Empathy in chickens
-
-Hen with chicks, India
-
-Hen with chicks, Portugal
-Chickens are gregarious birds and live together in flocks. They have a communal approach to the incubation of eggs and raising of young. Individual chickens in a flock will dominate others, establishing a 'pecking order', with dominant individuals having priority for food access and nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this social order until a new pecking order is established. Adding hens, especially younger birds, to an existing flock can lead to fighting and injury.[34]
-
-When a rooster finds food, he may call other chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping the food. This behaviour may also be observed in mother hens to call their chicks and encourage them to eat.
-
-A rooster's crowing is a loud and sometimes shrill call and sends a territorial signal to other roosters.[35] However, roosters may also crow in response to sudden disturbances within their surroundings. Hens cluck loudly after laying an egg, and also to call their chicks. Chickens also give different warning calls when they sense a predator approaching from the air or on the ground.
- For the culinary use of chickens, see Chicken as food. For other uses, see Chicken (disambiguation) and Chooks (disambiguation). "Cockadoodledoo" and "Cocka-doodle-doo" redirect here. For the nursery rhyme, see Cock a doodle doo. Chicken Male and female chicken sitting together.jpg A rooster (left) and hen (right) perching on a roost Conservation status Domesticated Scientific classificationedit Kingdom: Animalia Phylum: Chordata Class: Aves Order: Galliformes Family: Phasianidae Genus: Gallus Species: G. domesticus Binomial name Gallus domesticus (Linnaeus, 1758) GLW 2 global distributions of c) chickens.tif Chicken distribution The chicken (Gallus domesticus) is a domesticated subspecies of the red junglefowl, with attributes of wild species such as grey and ceylon junglefowl[1] that are originally from Southeastern Asia. Rooster or cock is a term for an adult male bird, and a younger male may be called a cockerel. A male that has been castrated is a capon. An adult female bird is called a hen and a sexually immature female is called a pullet. Originally raised for cockfighting or for special ceremonies, chickens were not kept for food until the Hellenistic period (4th–2nd centuries BC).[2][3] Humans now keep chickens primarily as a source of food (consuming both their meat and eggs) and as pets. Chickens are one of the most common and widespread domestic animals, with a total population of 23.7 billion as of 2018,[4] up from more than 19 billion in 2011.[5] There are more chickens in the world than any other bird.[5] There are numerous cultural references to chickens – in myth, folklore and religion, and in language and literature. Genetic studies have pointed to multiple maternal origins in South Asia, Southeast Asia, and East Asia,[6] but the clade found in the Americas, Europe, the Middle East and Africa originated from the Indian subcontinent. From ancient India, the chicken spread to Lydia in western Asia Minor, and to Greece by the 5th century BC.[7] Fowl have been known in Egypt since the mid-15th century BC, with the "bird that gives birth every day" having come from the land between Syria and Shinar, Babylonia, according to the annals of Thutmose III. Behavior Social behaviour See also: Empathy in chickens Hen with chicks, India Hen with chicks, Portugal Chickens are gregarious birds and live together in flocks. They have a communal approach to the incubation of eggs and raising of young. Individual chickens in a flock will dominate others, establishing a 'pecking order', with dominant individuals having priority for food access and nesting locations. Removing hens or roosters from a flock causes a temporary disruption to this social order until a new pecking order is established. Adding hens, especially younger birds, to an existing flock can lead to fighting and injury.[34] When a rooster finds food, he may call other chickens to eat first. He does this by clucking in a high pitch as well as picking up and dropping the food. This behaviour may also be observed in mother hens to call their chicks and encourage them to eat. A rooster's crowing is a loud and sometimes shrill call and sends a territorial signal to other roosters.[35] However, roosters may also crow in response to sudden disturbances within their surroundings. Hens cluck loudly after laying an egg, and also to call their chicks. Chickens also give different warning calls when they sense a predator approaching from the air or on the ground.</p>
+    
+    
+      <div id="sushi" class="col-md-4 col-sm-12 col-xs-12">
+        <article>
+            <h3 class="text-center">Sushi</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<a href="#home" class="visible-xs visible-sm">Back to top</a></p>
+        </article>
       </div>
     </section>
-  </div><!-- End of #main-content -->
+  </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <!-- jQuery Link -->
   <script src="js/jquery-2.1.4.min.js"></script>
+  
+  <!-- Javascript Link -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
+
