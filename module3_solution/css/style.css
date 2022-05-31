@@ -1,111 +1,57 @@
 body {
-  font-size: 16px;
-  color: #fff;
-  font-family: 'Oxygen', sans-serif;
-  background-color: #E36CA7;
-  color:  black;
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
 }
 
-/** HEADER **/
+/* HEADER */
 #header-nav {
-  background-color: #A51D61;
-  border-radius: 0;
-  border: 0;
+	background-color: #999898;
+	border-radius: 0;
+	border: 0;
+	color: black;
 }
 
-.navbar-brand {
-  padding-top: 25px;
-  height: 75px;
+.navbar-brand p {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
 }
 
-.navbar-brand h1 { /* Company name */
-  font-family: 'Lora', serif;
-  color: black;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-left: 25px;
-  margin-top: 0;
-  line-height: .75;
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
 }
 
-.navbar-collapse {
-  padding-right: 0px;
-  padding-left: 0px;
+#nav-list a {
+	color: black;
+	text-align: center;
 }
 
-#nav-list {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding: 0px;
-  background-color: #F5ADD1;
-}
-
-
-#nav-list li {
-  text-align: center;
-  color: black;
-  font-size: 1.5em;
-
-}
-
-#nav-list hr {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}
-
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 2px solid black;
-}
-
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -60px;
+#nav-list a:hover {
+	background-color: #8243d6;
 }
 /* END HEADER */
 
-/* HOME PAGE */
-
-h2 {
-  font-weight: bold;
+/* Section */
+#home {
+	margin-bottom: 30px;
 }
 
-#main-content {
-  width: 100%;
-  margin-bottom: 20px;
-  color:  black;
+.row {
+	
+	position: relative;
+	float: left;
 }
 
-#main-text {
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+.row > div > article {
+	background-color: #999898;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
 }
-
-#menus {
-  width:  90%;
-  background-color: #B6849D;
-  overflow: hidden;
-  color:  black;
-}
-
-h3 {
-  text-align: center;
-  font-weight: bold;
-}
-
-#menus p {
-  margin-bottom: 50px;
-}
-
-/* END HOME PAGE */
-
-/
+/* End Section */
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -124,11 +70,54 @@ h3 {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+/* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+/* Restaurant name */
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+/* Kosher cert */
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  
+/* Star-K */
+  .navbar-brand p img { 
+    height: 20px;
+  }
 
-}
+/* Collapsed nav menu text */
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  
+/* Collapsed nav menu glyph */
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
 
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: white;
+    color: white;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
 }
