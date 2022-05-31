@@ -2,13 +2,13 @@ body {
   font-size: 16px;
   color: #fff;
   font-family: 'Oxygen', sans-serif;
-  background-color: yellowgreen;
+  background-color: #E36CA7;
   color:  black;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: seagreen;
+  background-color: #A51D61;
   border-radius: 0;
   border: 0;
 }
@@ -39,7 +39,7 @@ body {
   margin-bottom: 0px;
   margin-left: 0px;
   padding: 0px;
-  background-color: orange;
+  background-color: #F5ADD1;
 }
 
 
@@ -89,7 +89,7 @@ h2 {
 
 #menus {
   width:  90%;
-  background-color: greenyellow;
+  background-color: #B6849D;
   overflow: hidden;
   color:  black;
 }
