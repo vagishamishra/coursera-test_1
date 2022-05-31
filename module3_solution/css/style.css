@@ -1,0 +1,134 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  background-color: yellowgreen;
+  color:  black;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: seagreen;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 75px;
+}
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 0;
+  line-height: .75;
+}
+
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0px;
+  background-color: orange;
+}
+
+
+#nav-list li {
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+
+}
+
+#nav-list hr {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+h2 {
+  font-weight: bold;
+}
+
+#main-content {
+  width: 100%;
+  margin-bottom: 20px;
+  color:  black;
+}
+
+#main-text {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#menus {
+  width:  90%;
+  background-color: greenyellow;
+  overflow: hidden;
+  color:  black;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#menus p {
+  margin-bottom: 50px;
+}
+
+/* END HOME PAGE */
+
+/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}
