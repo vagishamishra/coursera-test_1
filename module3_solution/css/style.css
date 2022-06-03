@@ -14,8 +14,8 @@ body {
 }
 
 .navbar-brand p {
-	color: black;
-	font-size: 25px;
+	color: white;
+	font-size: 30px;
 	font-weight: bold;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .row > div > article {
-	background-color: #EB4F56;
+	background-color: #8EB657;
 	text-align: justify;
 	margin-bottom: 20px;
 	padding: 12px;
