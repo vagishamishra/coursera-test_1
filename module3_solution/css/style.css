@@ -1,16 +1,16 @@
 body {
 	font-size: 16px;
-	color: white;
-	background-color: #C492EC;
+	color: black;
+	background-color: #EABC4B;
 	font-family: sans-serif;
 }
 
 /* HEADER */
 #header-nav {
-	background-color: #A01E60;
+	background-color: #78141B;
 	border-radius: 0;
 	border: 0;
-	color: black;
+	color: white;
 }
 
 .navbar-brand p {
@@ -45,7 +45,7 @@ body {
 }
 
 .row > div > article {
-	background-color: #EC92C9;
+	background-color: #EB4F56;
 	text-align: justify;
 	margin-bottom: 20px;
 	padding: 12px;
