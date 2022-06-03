@@ -68,7 +68,7 @@ body {
 /* Restaurant name */
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5px; 
+    font-size: 15px; 
   }
 }
 
@@ -83,7 +83,7 @@ body {
 /* Restaurant name */
   .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 5px; 
+    font-size: 15px; 
   }
   
 /* Kosher cert */
