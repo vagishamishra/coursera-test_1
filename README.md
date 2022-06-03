@@ -12,6 +12,15 @@ MOBILE VIEW
 ![mobile view](https://user-images.githubusercontent.com/102377131/171879363-6e9573b7-d50e-4039-b753-3351b3f1b668.jpg)
 
 
-Project II
+Project II (Resturant Site)
 DESKTOP VIEW
 
+![des view](https://user-images.githubusercontent.com/102377131/171903177-6ca7014a-8815-49a7-9b1c-f65fb46d048a.jpg)
+
+TAB VIEW
+
+![tab vi](https://user-images.githubusercontent.com/102377131/171903239-4827e43f-27b4-4d81-abef-411dbbb7dcec.jpg)
+
+MOBILE VIEW (Navigation bar)
+
+![mob view](https://user-images.githubusercontent.com/102377131/171903315-85ed3a96-ac10-4626-9c12-1da1e986c94d.jpg)
