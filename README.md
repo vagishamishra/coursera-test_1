@@ -1,4 +1,4 @@
-RESTAURANT MENU SITE : https://vagishamishra.github.io/coursera-test_1/module5_sol/single-category.html
+RESTAURANT MENU SITE : https://vagishamishra.github.io/coursera-test_1/module5_sol/index.html
 
 Project I 
 DESKTOP VIEW
