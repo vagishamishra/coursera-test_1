@@ -1,0 +1,92 @@
+class GalacticSpacecraft:
+    def __init__(self, x, y, z, direction):
+        self.x = x
+        self.y = y
+        self.z = z
+        self.direction = direction
+    
+    def move_forward(self):
+        if self.direction == 'N':
+            self.y += 1
+        elif self.direction == 'S':
+            self.y -= 1
+        elif self.direction == 'E':
+            self.x += 1
+        elif self.direction == 'W':
+            self.x -= 1
+        elif self.direction == 'U':
+            self.z += 1
+        elif self.direction == 'D':
+            self.z -= 1
+    
+    def move_backward(self):
+        if self.direction == 'N':
+            self.y -= 1
+        elif self.direction == 'S':
+            self.y += 1
+        elif self.direction == 'E':
+            self.x -= 1
+        elif self.direction == 'W':
+            self.x += 1
+        elif self.direction == 'U':
+            self.z -= 1
+        elif self.direction == 'D':
+            self.z += 1
+    
+    def turn_left(self):
+        if self.direction == 'N':
+            self.direction = 'W'
+        elif self.direction == 'S':
+            self.direction = 'E'
+        elif self.direction == 'E':
+            self.direction = 'N'
+        elif self.direction == 'W':
+            self.direction = 'S'
+        elif self.direction == 'U':
+            self.direction = 'N'
+    
+    def turn_right(self):
+        if self.direction == 'N':
+            self.direction = 'E'
+        elif self.direction == 'S':
+            self.direction = 'W'
+        elif self.direction == 'E':
+            self.direction = 'S'
+        elif self.direction == 'W':
+            self.direction = 'N'
+    
+    def turn_up(self):
+        if self.direction != 'U':
+            self.direction = 'U'
+    
+    def turn_down(self):
+        if self.direction != 'D':
+            self.direction = 'D'
+    
+    def execute_commands(self, commands):
+        for command in commands:
+            if command == 'f':
+                self.move_forward()
+            elif command == 'b':
+                self.move_backward()
+            elif command == 'l':
+                self.turn_left()
+            elif command == 'r':
+                self.turn_right()
+            elif command == 'u':
+                self.turn_up()
+            elif command == 'd':
+                self.turn_down()
+
+x = int(input("Enter starting x coordinate: "))
+y = int(input("Enter starting y coordinate: "))
+z = int(input("Enter starting z coordinate: "))
+direction = input("Enter initial direction (N, S, E, W, Up, Down): ")
+commands = input("Enter commands (e.g., 'f', 'r', 'u', 'b', 'l'): ").split()
+
+spacecraft = GalacticSpacecraft(x, y, z, direction)
+
+spacecraft.execute_commands(commands)
+
+print("Final Position: ({}, {}, {})".format(spacecraft.x, spacecraft.y, spacecraft.z))
+print("Final Direction:", spacecraft.direction)
